@@ -104,7 +104,7 @@ function compress() {
   cp ${BIN_SRC_DIR}/hyper-${os_type} ${BIN_TGT_DIR}/hyper
   cp ${BIN_SRC_DIR}/checksum ${BIN_TGT_DIR}/
   cd ${BIN_TGT_DIR}
-  #chmod +x hyper
+  chmod +x hyper
 
   #verify checksum
   case ${os_type} in
